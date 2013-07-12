@@ -1,13 +1,13 @@
 FFMPEG Build Script
 ===================
 
-Simple build script for ffmpeg with Android NDK.
+Simple build script for `ffmpeg` with `Android NDK`.
 
 Scripts:
 
-	config.sh To configure ffmpeg *Modify to suit your needs
+	config.sh: To configure ffmpeg, modify to suit your needs
 
-	build.sh To configure and build ffmpeg, the output in build/
+	build.sh: To configure and build ffmpeg, the output in build/
 
 
 FFMPEG Library: [http://ffmpeg.org/](http://ffmpeg.org/)
