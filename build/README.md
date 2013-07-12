@@ -1,4 +1,4 @@
-Build Script
-============
+Build
+=====
 
 The output goes here
