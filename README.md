@@ -13,3 +13,7 @@ Scripts:
 FFMPEG Library: [http://ffmpeg.org/](http://ffmpeg.org/)
 
 Android NDK: [http://developer.android.com/tools/sdk/ndk/index.html](http://developer.android.com/tools/sdk/ndk/index.html)
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/aksalj/ffmpeg-android/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
