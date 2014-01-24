@@ -10,7 +10,7 @@ NDK=/Users/aksalj/ADT/ndk
 
 ANDROID_API=android-9
 SYSROOT=${NDK}/platforms/${ANDROID_API}/arch-arm
-PREBUILT=${NDK}/toolchains/arm-linux-androideabi-4.4.3/prebuilt/darwin-x86_64
+PREBUILT=${NDK}/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64
 CROSS_PREFIX=${PREBUILT}/bin/arm-linux-androideabi-
 ARM_INCLUDE=${SYSROOT}/usr/include
 ARM_LIB=${SYSROOT}/usr/lib
@@ -32,9 +32,9 @@ MP3LAME=../libmp3lame
  --extra-ldflags=" -L${ARM_LIB} -L${MP3LAME}/lib" \
  --disable-debug \
  --enable-libmp3lame \
- --disable-ffplay \
- --disable-ffprobe \
- --disable-ffserver \
+ --enable-ffplay \
+ --enable-ffprobe \
+ --enable-ffserver \
  --enable-avfilter \
  --enable-decoders \
  --enable-demuxers \
