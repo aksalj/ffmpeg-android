@@ -1,19 +1,19 @@
-FFMPEG Build Script
+ffmpeg build script
 ===================
 
-Simple build script for `ffmpeg` with `Android NDK`.
+Build `ffmpeg` with android `NDK` on Mac OS.
 
-Scripts:
+Run:
 
-	config.sh: To configure ffmpeg, modify to suit your needs
-
-	build.sh: To configure and build ffmpeg, the output in build/
+```shell
+$ ./build.sh
+```
 
 
 ffmpeg: [http://ffmpeg.org/](http://ffmpeg.org/)
 
-Android NDK: [http://developer.android.com/tools/sdk/ndk/index.html](http://developer.android.com/tools/sdk/ndk/index.html)
+NDK: [http://developer.android.com/tools/sdk/ndk/index.html](http://developer.android.com/tools/sdk/ndk/index.html)
+
 
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/aksalj/ffmpeg-android/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
